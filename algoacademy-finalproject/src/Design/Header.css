@@ -1,5 +1,53 @@
-.cslg {
-    width: 150px;
-    height: 100px;
-    margin:   50px 37px;
+.maindiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.headlogo {
+  width: 82px;
+  height: 37px;
+  margin-top: 44px;
+  margin-left: 55px;
+}
+.bothlink {
+  display: flex;
+  gap: 45px;
+  justify-content: space-between;
+  z-index: 1;
+  margin-right: 45px;
+}
+.links {
+  display: flex;
+  gap: 88px;
+  align-items: center;
+  margin-top: 50px;
+  margin-left: auto;
+  z-index: 1;
+}
+.contactlink {
+  display: flex;
+  gap: 88px;
+  align-items: center;
+  margin-top: 50px;
+  margin-left: auto;
+  z-index: 1;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.btn-contact {
+  background-color: #fa9021;
+  padding: 9px 26px;
+  border-radius: 6px;
+  font-size: 13px;
+}
+
+.joystick {
+  z-index: 0;
+  position: absolute;
+  left: 705px;
+  top: 0;
 }
