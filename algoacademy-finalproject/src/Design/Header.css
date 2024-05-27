@@ -1,6 +1,5 @@
 .maindiv {
   display: flex;
-  align-items: center;
   justify-content: space-between;
   position: relative;
 }
@@ -8,41 +7,31 @@
 .headlogo {
   width: 82px;
   height: 37px;
-  margin-top: 44px;
-  margin-left: 55px;
+  margin-top: 38px;
+  margin-left: 52px;
 }
-.bothlink {
-  display: flex;
-  gap: 45px;
-  justify-content: space-between;
-  z-index: 1;
-  margin-right: 45px;
-}
+
 .links {
   display: flex;
-  gap: 88px;
+  justify-content: space-between;
   align-items: center;
-  margin-top: 50px;
-  margin-left: auto;
   z-index: 1;
-}
-.contactlink {
-  display: flex;
   gap: 88px;
-  align-items: center;
-  margin-top: 50px;
-  margin-left: auto;
-  z-index: 1;
+  margin-top: 36px;
+  margin-right: 225px;
 }
+
 a {
   text-decoration: none;
   color: white;
 }
 .btn-contact {
+  position: absolute;
   background-color: #fa9021;
   padding: 9px 26px;
   border-radius: 6px;
   font-size: 13px;
+  right: 70px;
 }
 
 .joystick {
@@ -50,4 +39,67 @@ a {
   position: absolute;
   left: 721px;
   top: 0;
+}
+
+.Homeline {
+  position: absolute;
+  top: 72px;
+  right: 690px;
+}
+
+.Cry {
+  position: absolute;
+  top: 187px;
+  left: 785px;
+}
+
+.Unity {
+  position: absolute;
+  top: 387px;
+  left: 615px;
+}
+
+.Unreal {
+  position: absolute;
+  top: 206px;
+  right: 200px;
+}
+
+#D3 {
+  position: absolute;
+  color: #e87d0e;
+  font-weight: bold;
+  font-size: 20px;
+  left: 140px;
+  top: 172px;
+}
+
+#wh1 {
+  position: absolute;
+  color: white;
+  font-weight: bold;
+  font-size: 50px;
+  left: 140px;
+  top: 200px;
+}
+
+#hdrtext {
+  position: absolute;
+  color: white;
+  font-weight: normal;
+  font-size: 16px;
+  left: 140px;
+  top: 473px;
+}
+
+#btn-detail {
+  position: absolute;
+  color: white;
+  background: linear-gradient(to right, #fa8305, #fb9e3c);
+  font-weight: normal;
+  font-size: 16px;
+  left: 140px;
+  top: 613px;
+  padding: 12px 26px;
+  border-radius: 32px;
 }
