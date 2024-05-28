@@ -19,8 +19,6 @@ function Trends() {
         <TrendGame gameimg={TrendGame3} />
         <TrendGame gameimg={TrendGame4} />
       </div>
-
-      <h5>a</h5>
     </div>
   );
 }

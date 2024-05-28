@@ -11,7 +11,6 @@ import Unreal from "../Images/unreal.svg";
 function Header() {
   return (
     <div className="Headermain">
-
       <div className="navbar">
         <img src={Logo} className="headlogo"></img>
         <div className="links">
@@ -22,7 +21,7 @@ function Header() {
           <Link to="/" className="btn-contact">
             Contact us
           </Link>
-      <img src={Homeline} className="Homeline"></img>
+          <img src={Homeline} className="Homeline"></img>
         </div>
       </div>
 
