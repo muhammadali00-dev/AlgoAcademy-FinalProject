@@ -1,4 +1,9 @@
-.maindiv {
+.Headermain {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.navbar {
   display: flex;
   justify-content: space-between;
   position: relative;
@@ -44,7 +49,7 @@ a {
 .Homeline {
   position: absolute;
   top: 72px;
-  right: 690px;
+  left: 640px;
 }
 
 .Cry {
@@ -62,7 +67,7 @@ a {
 .Unreal {
   position: absolute;
   top: 206px;
-  right: 200px;
+  left: 1106px;
 }
 
 #D3 {
