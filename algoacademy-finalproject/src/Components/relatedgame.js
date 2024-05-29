@@ -18,12 +18,10 @@ function Relatedgame() {
           text <br /> ever since the 1500s,
         </p>
       </div>
-      <div>
+      <div className="images">
         <img src={Spiderman} className="spider"></img>
         <img src={Points} className="points"></img>
       </div>
-
-      <h6>ABC</h6>
     </div>
   );
 }

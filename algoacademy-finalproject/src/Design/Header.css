@@ -28,7 +28,6 @@
 
 a {
   text-decoration: none;
-  color: white;
 }
 .btn-contact {
   position: absolute;
@@ -81,8 +80,6 @@ a {
 
 #wh1 {
   position: absolute;
-  color: white;
-  font-weight: bold;
   font-size: 50px;
   left: 140px;
   top: 200px;
@@ -90,7 +87,6 @@ a {
 
 #hdrtext {
   position: absolute;
-  color: white;
   font-weight: normal;
   font-size: 16px;
   left: 140px;
@@ -99,7 +95,6 @@ a {
 
 #btn-detail {
   position: absolute;
-  color: white;
   background: linear-gradient(to right, #fa8305, #fb9e3c);
   font-weight: normal;
   font-size: 16px;

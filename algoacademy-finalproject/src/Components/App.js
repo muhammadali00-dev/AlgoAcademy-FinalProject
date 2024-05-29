@@ -2,7 +2,8 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "../Design/App.css";
 import Header from "./Header";
 import Trends from "./Trends";
-import Rlgame from './relatedgame'
+import Rlgame from "./relatedgame";
+import Development from "./Development";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
 
         <Trends></Trends>
         <Rlgame></Rlgame>
+        <Development></Development>
       </div>
     </BrowserRouter>
   );
@@ -27,4 +29,4 @@ function App() {
 
 export default App;
 
-// rafce
+// rfce
