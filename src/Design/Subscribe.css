@@ -6,6 +6,7 @@
 
 .SubTitle {
   margin-left: 127px;
+  margin-top: 85px;
 }
 
 .SubH1 {
@@ -14,5 +15,33 @@
 }
 
 .SubP {
-
+  line-height: 187.5%;
 }
+
+.SubNews {
+  display: inline-block;
+  width: 1109px;
+  height: 180px;
+  margin-left: 127px;
+  margin-top: 50px;
+
+  background: rgba(255, 255, 255, 0.11);
+  border-radius: 15px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+.NewsTitle {
+  display: inline-block;
+  margin-left: 50px;
+  margin-top: 30px;
+}
+.NewsH2 {
+  font-weight: 500;
+  font-size: 30px;
+  margin: 8px 0;
+}
+
+.NewsP {
+  margin: 0;
+}
+

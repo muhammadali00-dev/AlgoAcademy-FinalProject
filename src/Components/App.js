@@ -6,6 +6,8 @@ import Rlgame from "./relatedgame";
 import Development from "./Development";
 import OurProjects from "./OurProjects";
 import Subscribe from "./Subscribe";
+import Footer from "./Footer";
+import SCFooter from "./SCFooter";
 
 function App() {
   return (
@@ -26,6 +28,8 @@ function App() {
         <Development />
         <OurProjects />
         <Subscribe />
+        <Footer />
+        <SCFooter />
       </div>
     </BrowserRouter>
   );

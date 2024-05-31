@@ -1,0 +1,16 @@
+.SRCFooterMain {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #070707;
+  height: 80px;
+  margin-top: 0;
+  border-top: solid 1px #ccc;
+
+  p {
+    text-align: center;
+    margin: 28px auto;
+    font-size: 13px;
+    line-height: 190.6%;
+  }
+}

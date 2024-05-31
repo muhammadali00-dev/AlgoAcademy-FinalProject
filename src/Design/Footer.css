@@ -1,0 +1,62 @@
+.FooterMain {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  display: flex;
+  background-color: #070707;
+  height: 280px;
+  margin-top: 156px;
+}
+
+.FooterLogo {
+  display: inline-block;
+  flex-direction: column;
+  margin-top: 70px;
+  margin-left: 95px;
+  img {
+    width: 68px;
+    height: 37px;
+  }
+  .LogoInfo {
+    margin-top: 5px;
+    margin-bottom: 31px;
+  }
+}
+
+.Fabout {
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+  margin-top: 55px;
+
+  h4 {
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 0;
+  }
+  .Pcontainer {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    margin-top: 16px;
+    p {
+      margin: 0;
+    }
+  }
+}
+
+.FooterContact {
+  margin-left: 127px;
+  margin-top: 55px;
+  h4 {
+    margin-bottom: 1px;
+  }
+}
+
+.FooterIcons {
+  margin-left: 55px;
+  img {
+    display: inline-block;
+    margin: 177px -13px 0 0;
+  }
+}
