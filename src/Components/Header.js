@@ -14,7 +14,9 @@ function Header() {
       <div className="navbar">
         <img src={Logo} className="headlogo"></img>
         <div className="links">
-          <Link to="/">Home</Link>
+          <Link to="/" className="linkHome">
+            Home
+          </Link>
           <Link to="/">About us</Link>
           <Link to="/">Portfolio</Link>
           <Link to="/">News</Link>

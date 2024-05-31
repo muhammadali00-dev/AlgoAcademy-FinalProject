@@ -14,20 +14,22 @@ function App() {
     <BrowserRouter>
       <div className="App">
         <Header />
+        <main className="Container">
+          <Routes>
+            <Route path="/"></Route>
+            <Route path="/"></Route>
+            <Route path="/"></Route>
+            <Route path="/"></Route>
+            <Route path="/"></Route>
+          </Routes>
 
-        <Routes>
-          <Route path="/"></Route>
-          <Route path="/"></Route>
-          <Route path="/"></Route>
-          <Route path="/"></Route>
-          <Route path="/"></Route>
-        </Routes>
+          <Trends />
+          <Rlgame />
+          <Development />
+          <OurProjects />
+          <Subscribe />
+        </main>
 
-        <Trends />
-        <Rlgame />
-        <Development />
-        <OurProjects />
-        <Subscribe />
         <Footer />
         <SCFooter />
       </div>

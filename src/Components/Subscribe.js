@@ -14,12 +14,18 @@ function Subscribe() {
       </div>
 
       <div className="SubNews">
+        
         <div className="NewsTitle">
           <h2 className="NewsH2">Stay in the loop</h2>
           <p className="NewsP">
             Subscribe to receive the latest news and updates about TDA. <br />
             We promise not to spam you!
           </p>
+        </div>
+
+        <div className="Inputdiv">
+          <input type="email" placeholder="Enter email address"></input>
+          <button type="submit">Continue</button>
         </div>
       </div>
     </div>

@@ -19,7 +19,7 @@
 }
 
 .SubNews {
-  display: inline-block;
+  display: flex;
   width: 1109px;
   height: 180px;
   margin-left: 127px;
@@ -45,3 +45,32 @@
   margin: 0;
 }
 
+.Inputdiv {
+  background-color: white;
+  display: inline-block;
+  margin-left: 155px;
+  height: 48px;
+  width: 385px;
+  border-radius: 8px;
+  margin-top: 67px;
+  input {
+    text-align: center;
+    border: none;
+    height: 46px;
+    /* padding: 15px 0 15px 8px; */
+    border-radius: 8px;
+    outline: none;
+    box-shadow: none;
+    caret-color: black;
+    color: black;
+  }
+  button {
+    background-color: #dc7000;
+    border-radius: 8px;
+    border: none;
+    width: 105px;
+    height: 37px;
+    margin-left: 100px;
+    cursor: pointer;
+  }
+}
