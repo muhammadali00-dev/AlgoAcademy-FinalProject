@@ -22,12 +22,11 @@ function OurProjects() {
       <div className="ProjectImgs">
         <img src={ProjectImg1} id="PImg1"></img>
         <img src={ProjectImg2} id="PImg2"></img>
-        <img src={ProjectImg3} id="PImg3"></img> <br />
-        <div className="bottomimg">
-          <img src={ProjectImg4} id="PImg4"></img>
-          <img src={ProjectImg5} id="PImg5"></img>
-          <img src={ProjectImg6} id="PImg6"></img>
-        </div>
+        <img src={ProjectImg3} id="PImg3"></img>
+            
+        <img src={ProjectImg4} id="PImg4"></img>
+        <img src={ProjectImg5} id="PImg5"></img>
+        <img src={ProjectImg6} id="PImg6"></img>
       </div>
       <div className="Seeall">
         <SeeAll />

@@ -6,42 +6,45 @@
   background-size: cover;
   background-position: center;
   height: 128vh;
+  margin: 100px 0;
   width: 100%;
-}
-
-.Maindiv {
-  width: 1045px;
-  height: 696px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 100px;
 }
 
 .HedInfo {
-  width: 826;
-  height: 197px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 90px;
 }
+
 #backH1 {
   font-size: 29px;
   line-height: 188%;
-  display: flex;
   text-align: center;
 }
+
 #backP {
   line-height: 187.5%;
-  display: flex;
   text-align: center;
 }
 
 .icons {
-  display: flex;
-  flex-direction: column;
-}
-
-.topicon {
-  display: flex;
-  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 sütun */
+  grid-template-rows: auto auto; /* 2 satır */
   gap: 70px;
 }
-.bottomicon {
-  display: flex;
+
+.icons .icon:nth-child(5),
+.icons .icon:nth-child(6) {
+  grid-column: span 2; /* 5. ve 6. öğe iki sütunu kaplar */
+  justify-self: center; /* Öğeleri ortalar */
+}
+
+.icon {
   text-align: center;
-  gap: 150px;
 }

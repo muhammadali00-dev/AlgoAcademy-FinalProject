@@ -2,6 +2,10 @@
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 10px 0 60px 0;
 }
 
 .RlH1 {
@@ -14,6 +18,7 @@
 }
 
 .littleinfo {
+  padding-bottom: 15px;
 }
 
 .littleinfo h2 {
@@ -26,15 +31,13 @@
   font-weight: normal;
   font-size: 16px;
 }
-
 .spider {
-}
-.points {
-  position: absolute;
-  z-index: -1;
-  left: 965px;
-  top: 1741px;
+  display: inline-block;
+  align-self: center;
 }
 
-.images {
+@media (max-width: 1200px) {
+  .spider {
+    width: 100%;
+  }
 }

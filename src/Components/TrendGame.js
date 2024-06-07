@@ -5,7 +5,7 @@ import "./Trends";
 function trendgame(props) {
   let { gameimg } = props;
   return (
-    <div>
+    <div className="img-follow">
       <img src={gameimg} className="gameimg"></img>
       <div className="follownum">
         <img src={Fire}></img>

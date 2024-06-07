@@ -14,12 +14,10 @@ function Subscribe() {
       </div>
 
       <div className="SubNews">
-        
         <div className="NewsTitle">
           <h2 className="NewsH2">Stay in the loop</h2>
           <p className="NewsP">
-            Subscribe to receive the latest news and updates about TDA. <br />
-            We promise not to spam you!
+            Subscribe to receive the latest <br /> news and updates about TDA.  
           </p>
         </div>
 
