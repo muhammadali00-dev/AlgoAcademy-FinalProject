@@ -1,0 +1,74 @@
+.Intro {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 72px 0 160px 0;
+  display: flex;
+}
+
+.joystick {
+  position: absolute;
+  z-index: 0;
+  height: 720px;
+  left: 720px;
+  top: 0;
+}
+
+.Cry {
+  position: absolute;
+  top: 187px;
+  left: 770px;
+}
+
+.Unity {
+  position: absolute;
+  top: 387px;
+  left: 600px;
+}
+
+.Unreal {
+  position: absolute;
+  top: 206px;
+  left: 1100px;
+}
+
+.Tree-D {
+  color: #e87d0e;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.wh1 {
+  font-size: 50px;
+}
+
+.hdrtext {
+  font-weight: normal;
+  font-size: 16px;
+}
+
+.btn-detail {
+  display: inline-block;
+  background: linear-gradient(to right, #fa8305, #fb9e3c);
+  font-weight: normal;
+  font-size: 16px;
+
+  padding: 12px 26px;
+  border-radius: 32px;
+}
+
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 992px) {
+  .joystick,
+  .Cry,
+  .Unity,
+  .Unreal {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+}
+@media (max-width: 576px) {
+}

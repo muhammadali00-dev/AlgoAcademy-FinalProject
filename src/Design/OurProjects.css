@@ -4,25 +4,19 @@
   font-style: normal;
 }
 .ProjectTitle {
-  margin-top: 145px;
 }
 .ProjectH1 {
   font-size: 30px;
   text-align: center;
-  margin: 0 auto;
   line-height: 187.5%;
 }
 
 .ProjectP {
   font-size: 14px;
   text-align: center;
-  margin: 0 auto;
-  margin-top: 16px;
 }
 
 .ProjectImgs {
-  margin-top: 73px;
-  margin-left: 127px;
 }
 #PImg1,
 #PImg2 {
@@ -46,14 +40,11 @@
 }
 
 img {
-  margin-right: 24px;
 }
 
 .bottomimg {
-  margin-top: 22px;
 }
 
 .Seeall {
   text-align: center;
-  margin: 41px auto 0 auto;
 }

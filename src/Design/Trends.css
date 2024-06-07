@@ -2,14 +2,16 @@
   font-family: "Rubik", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
+  padding: 80px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
 }
 
 .trendHead {
   display: flex;
-  gap: 550px;
+  justify-content: space-between;
   align-items: center;
-  margin-left: 140px;
-  margin-top: 754px;
 }
 
 .TrendH2 {
@@ -28,25 +30,71 @@
 }
 
 .trendgames {
-  display: flex;
-  align-items: center;
-  gap: 45px;
-  margin-left: 140px;
-  margin-top: 35px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: space-between;
 }
 
 .follownum {
   display: flex;
   align-items: center;
   gap: 10px;
-  margin-left: 40px;
-}
-
-.gameimg {
-  width: 240px;
-  height: 265px;
 }
 
 #FolloP {
   font-size: 22px;
+}
+
+@media (max-width: 1200px) {
+  .trendgames {
+    grid-template-columns: auto auto;
+    justify-content: space-around;
+    gap: 60px;
+  }
+}
+
+@media (max-width: 992px) {
+  .trendgames {
+    grid-template-columns: auto auto;
+    justify-content: space-around;
+    gap: 60px;
+  }
+}
+@media (max-width: 768px) {
+  .trendgames {
+    grid-template-columns: auto auto;
+    gap: 30px;
+  }
+
+  .TrendH2 {
+    font-size: 25px;
+    font-weight: 600;
+  }
+
+  .seeP {
+    font-weight: 400;
+    font-size: 16px;
+    padding: 12px 26px;
+  }
+}
+@media (max-width: 576px) {
+  .trendgames {
+    grid-template-columns: auto auto;
+    gap: 20px;
+  }
+
+  .TrendH2 {
+    font-size: 24px;
+    font-weight: 500;
+  }
+
+  .seeP {
+    font-weight: 400;
+    font-size: 16px;
+    padding: 11px 22px;
+  }
+  .gameimg {
+    width: 221px;
+    height: 247;
+  }
 }

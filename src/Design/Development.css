@@ -7,53 +7,41 @@
   background-position: center;
   height: 128vh;
   width: 100%;
-  position: relative;
 }
 
 .Maindiv {
   width: 1045px;
   height: 696px;
-  margin-left: 198px;
 }
 
 .HedInfo {
   width: 826;
   height: 197px;
-  margin-left: 109px;
 }
 #backH1 {
-  position: absolute;
   font-size: 29px;
   line-height: 188%;
   display: flex;
   text-align: center;
-  top: 65px;
 }
 #backP {
-  position: absolute;
   line-height: 187.5%;
   display: flex;
   text-align: center;
-  top: 205px;
-  margin-left: -33px;
 }
 
 .icons {
   display: flex;
   flex-direction: column;
-  margin-top: 60px;
 }
 
 .topicon {
   display: flex;
   text-align: center;
   gap: 70px;
-  margin-top: 100px;
 }
 .bottomicon {
   display: flex;
   text-align: center;
   gap: 150px;
-  margin-top: 60px;
-  margin-left: 320px;
 }

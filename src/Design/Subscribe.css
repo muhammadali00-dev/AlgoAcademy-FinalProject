@@ -5,8 +5,7 @@
 }
 
 .SubTitle {
-  margin-left: 127px;
-  margin-top: 85px;
+
 }
 
 .SubH1 {
@@ -22,8 +21,7 @@
   display: flex;
   width: 1109px;
   height: 180px;
-  margin-left: 127px;
-  margin-top: 50px;
+
 
   background: rgba(255, 255, 255, 0.11);
   border-radius: 15px;
@@ -32,32 +30,25 @@
 
 .NewsTitle {
   display: inline-block;
-  margin-left: 50px;
-  margin-top: 30px;
 }
 .NewsH2 {
   font-weight: 500;
   font-size: 30px;
-  margin: 8px 0;
 }
 
 .NewsP {
-  margin: 0;
 }
 
 .Inputdiv {
   background-color: white;
   display: inline-block;
-  margin-left: 155px;
   height: 48px;
   width: 385px;
   border-radius: 8px;
-  margin-top: 67px;
   input {
     text-align: center;
     border: none;
     height: 46px;
-    /* padding: 15px 0 15px 8px; */
     border-radius: 8px;
     outline: none;
     box-shadow: none;
@@ -70,7 +61,6 @@
     border: none;
     width: 105px;
     height: 37px;
-    margin-left: 100px;
     cursor: pointer;
   }
 }

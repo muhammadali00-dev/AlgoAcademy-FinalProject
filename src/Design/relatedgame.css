@@ -7,7 +7,6 @@
 .RlH1 {
   font-size: 33px;
   font-weight: 600;
-  margin-top: 110px;
   line-height: 187.5%;
   display: flex;
   flex-direction: column;
@@ -15,8 +14,6 @@
 }
 
 .littleinfo {
-  margin-left: 140px;
-  margin-top: 65px;
 }
 
 .littleinfo h2 {
@@ -31,8 +28,6 @@
 }
 
 .spider {
-  margin-top: 35px;
-  margin-left: 140px;
 }
 .points {
   position: absolute;
@@ -42,5 +37,4 @@
 }
 
 .images {
-  margin-bottom: 150px;
 }

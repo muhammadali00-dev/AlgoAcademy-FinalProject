@@ -1,6 +1,6 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "../Design/App.css";
 import Header from "./Header";
+import Intro from "./Intro";
 import Trends from "./Trends";
 import Rlgame from "./relatedgame";
 import Development from "./Development";
@@ -11,29 +11,20 @@ import SCFooter from "./SCFooter";
 
 function App() {
   return (
-    <BrowserRouter>
-      <div className="App">
-        <Header />
-        <main className="Container">
-          <Routes>
-            <Route path="/"></Route>
-            <Route path="/"></Route>
-            <Route path="/"></Route>
-            <Route path="/"></Route>
-            <Route path="/"></Route>
-          </Routes>
+    <div className="App container">
+      <Header />
+      <main className="container">
+        <Intro />
+        <Trends />
+        <Rlgame />
+        <Development />
+        <OurProjects />
+        <Subscribe />
+      </main>
 
-          <Trends />
-          <Rlgame />
-          <Development />
-          <OurProjects />
-          <Subscribe />
-        </main>
-
-        <Footer />
-        <SCFooter />
-      </div>
-    </BrowserRouter>
+      <Footer />
+      <SCFooter />
+    </div>
   );
 }
 

@@ -14,10 +14,9 @@ body::-webkit-scrollbar {
   display: none;
 }
 
-@media (max-width: 1400px) {
-  .container {
-    width: 1140px;
-  }
+.container {
+  width: 1320px;
+  margin: auto;
 }
 
 @media (max-width: 1200px) {
