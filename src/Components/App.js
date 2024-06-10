@@ -11,19 +11,25 @@ import SCFooter from "./SCFooter";
 
 function App() {
   return (
-    <div className="App container">
-      <Header />
-      <main className="container">
-        <Intro />
-        <Trends />
-        <Rlgame />
-        <Development />
-        <OurProjects />
-        <Subscribe />
-      </main>
+    <div>
+      <div className="App">
+        <div className="container">
+          <Header />
+          <Intro />
+          <Trends />
+          <Rlgame />
+        </div>
 
-      <Footer />
-      <SCFooter />
+        <Development />
+
+        <div className="container">
+          <OurProjects />
+          <Subscribe />
+        </div>
+
+        <Footer />
+        <SCFooter />
+      </div>
     </div>
   );
 }
