@@ -1,16 +1,17 @@
 import React, { useState } from "react";
 import "../Design/Header.css";
-import Logo from "../Images/LOGO.svg";
+import GameLogo from "../Images/GameLogo.png";
 
 function Header() {
-  const [toggleMenu, settoggleMenu] = useState(true);
+  const [toggleMenu, settoggleMenu] = useState(false);
 
   return (
     <div className="navbar">
-      <img src={Logo} className="headlogo"></img>
+      <img src={GameLogo} className="headlogo"></img>
       <div className="all-Links">
         {toggleMenu ? (
           <div className="link">
+            {/* <i class="fa-solid fa-xmark"></i> */}
             <a href="/" className="linkHome">
               Home
             </a>
@@ -24,11 +25,10 @@ function Header() {
         ) : null}
 
         <div className="toggleMenu" onClick={() => settoggleMenu(!toggleMenu)}>
-          <i class="fa-solid fa-bars" aria-hidden="true"></i>
-        </div>  
+          <i className="fa-solid fa-bars" aria-hidden="true"></i>
+        </div>
       </div>
     </div>
   );
 }
-
 export default Header;
