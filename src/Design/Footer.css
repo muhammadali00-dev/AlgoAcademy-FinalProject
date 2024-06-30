@@ -36,10 +36,12 @@
 
 .FooterIcons {
   display: flex;
-  align-self: flex-end; /* Moves the div to the bottom */
+  align-self: flex-end;
   margin-bottom: 20px;
 }
-
+.FooterIcons img {
+  cursor: pointer;
+}
 @media (max-width: 1200px) {
   .FooterIcons {
     display: flex;

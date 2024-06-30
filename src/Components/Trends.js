@@ -9,7 +9,6 @@ import TrendGame4 from "../Images/TrendGame4.png";
 function Trends() {
   return (
     <div className="Trendmain">
-
       <div className="trendHead">
         <h2 className="TrendH2">Currently Trending Games</h2>
         <SeeAll />

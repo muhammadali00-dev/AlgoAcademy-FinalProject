@@ -27,6 +27,7 @@
   padding: 12px 32px;
   border-radius: 10px;
   text-align: center;
+  cursor: pointer;
 }
 
 .trendgames {

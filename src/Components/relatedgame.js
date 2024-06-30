@@ -10,7 +10,7 @@ function Relatedgame() {
         Lorem Ipsum is simply dummy text of the <br /> printing and typesetting
         industry.
       </h1>
-      
+
       <div className="littleinfo">
         <h2>Lorem Ipsum</h2>
         <p>

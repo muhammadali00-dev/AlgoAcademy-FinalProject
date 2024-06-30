@@ -11,7 +11,6 @@ function Header() {
       <div className="all-Links">
         {toggleMenu ? (
           <div className="link">
-            {/* <i class="fa-solid fa-xmark"></i> */}
             <a href="/" className="linkHome">
               Home
             </a>

@@ -17,7 +17,7 @@ function Subscribe() {
         <div className="NewsTitle">
           <h2 className="NewsH2">Stay in the loop</h2>
           <p className="NewsP">
-            Subscribe to receive the latest <br /> news and updates about TDA.  
+            Subscribe to receive the latest <br /> news and updates about TDA.
           </p>
         </div>
 

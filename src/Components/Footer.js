@@ -38,7 +38,7 @@ function Footer() {
       </div>
 
       <div className="FooterIcons">
-        <img src={Facebook} />  
+        <img src={Facebook} />
         <img src={Instagram} />
         <img src={Twitter} />
         <img src={In} />
