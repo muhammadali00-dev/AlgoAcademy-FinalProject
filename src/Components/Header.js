@@ -3,7 +3,7 @@ import "../Design/Header.css";
 import GameLogo from "../Images/GameLogo.png";
 
 function Header() {
-  const [toggleMenu, settoggleMenu] = useState(false);
+  const [toggleMenu, settoggleMenu] = useState(true);
 
   return (
     <div className="navbar">
